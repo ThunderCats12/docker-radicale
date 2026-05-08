@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  radicale:
+    image: ${RADICALE_IMAGE}
+    container_name: radicale
+    restart: unless-stopped
+
+    ports:
+      - "${RADICALE_PORT}:5232"
+
+    environment:
+      RADICALE_USER: ${RADICALE_USER}
+      RADICALE_PASSWORD: ${RADICALE_PASSWORD}
+
+    volumes:
+      - radicale-data:/data
+      - ./config:/config:ro
+
+volumes:
+  radicale-data:
