@@ -1,21 +1,12 @@
 #######################################
 # 
-#  README.md file for Project:  Docker Radicale
+#  Project:  Docker Radicale
 #
 ######################################
+
 # Brief discription of the project
-#
-# This appears under TASKS.md file
-#
-#  Table of Contents:
-#  
-#  * Overview
-#  * Features
-#  * Installation
-#  * Configuration
-#  * License
-#
-######################################
+
+1. This project explenation exist in TASKS.md file
 
 # Features:
 
