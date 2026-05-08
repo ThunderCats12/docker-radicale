@@ -31,8 +31,7 @@
 2. Please clone this repository to where you want to run this.
 3. Create .env file (please check Configuration section for this)
 4. Run: docker compose up -d
-5. in order to scale up e.g:  docker compose up -d --scale radicale=2 (if you want 2)
-6. in order to scale down e.g:  docker compose up -d --scale radicale=1 (if you want only 1)
+5. try and access the site: http://localhost:5232 (user and password configured in Configuration section)
    
 # Configuration
 1. In .env file please set the following:
